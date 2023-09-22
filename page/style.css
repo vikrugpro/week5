@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+header {
+    height: 15vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 204, 204);
+}
+.container{
+    height:60vh;
+    display: flex;
+}
+main{
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(243, 233, 218);
+}
+.bigbox1{
+    display: flex;
+    justify-content:center;
+    padding-top: 35px;;
+    height: 45%;
+}
+.bigbox2{
+    height: 55%;
+    display: flex;
+    flex-wrap: wrap;
+padding: 15px;
+    justify-content: space-between;   
+}
+.box{
+    height: 40%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blanchedalmond
+}
+.box1{
+    width:48%;
+    height:47%;
+    margin-bottom: 10px;
+}
+.box2{
+    width:48%;
+    height:47%;
+}
+.box3{
+    height:47%;
+    width: 100%;
+}
+aside{
+width:30vw;
+padding-top: 20px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+background-color: rgb(166, 211, 172);
+}
+footer{
+    height:25vh;
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+    background-color: rgb(206, 204, 204);
+}
+.fbox {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(242, 239, 239);
+}
